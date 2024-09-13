@@ -1,0 +1,36 @@
+.container {
+  width: 18px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--schemes-primary);
+  height: 18px;
+  z-index: 0;
+}
+.checkSmallIcon {
+  width: 24px;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  height: 24px;
+  z-index: 1;
+  margin: 0 !important;
+
+}
+.stateLayer,
+.typeselectedStateenabled {
+  position: relative;
+  display: flex;
+ 
+}
+.stateLayer {
+  border-radius: var(--br-81xl);
+  flex-direction: row;
+  padding: var(--padding-2xs);
+}
+.typeselectedStateenabled {
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  width: 100%;
+  
+}
